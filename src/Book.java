@@ -26,7 +26,6 @@ public class Book {
     }
 
     public int hashCode() {
-
         return yearOfPublication + bookTitle.hashCode() + author.hashCode();
     }
 
