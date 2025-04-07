@@ -26,6 +26,5 @@ public class Author {
     public boolean equals(Object object) {
         Author author = (Author) object;
         return bookAuthorName.equals(author.bookAuthorName) && bookAuthorSurname.equals(author.bookAuthorSurname);
-
     }
 }
